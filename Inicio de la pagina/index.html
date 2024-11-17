@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calamity__All</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Img/Icono.png">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video" playsinline>
+            <source src="./Video/Con audio.mp4" type="video/mp4">
+            Tu navegador no soporta el video.
+        </video>
+        <div class="overlay"></div>
+    </div>
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Calamity<span>__All</span></h2>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Políticas de privacidad</a></li>
+                <li><a href="#">Look at me</a></li>
+                <li><a href="#">Asistente Troll</a></li>
+            </ul>
+            <button type="button"><a href="http://127.0.0.1:5500/Donar/Donar/index.html" class="Donar" target="_blank" rel="noopener noreferer">Donar</a></button>
+        </nav>
+        <div class="button-container">
+            <button class="START-button">START</button>
+        </div>
+
+        <dialog open>
+            <div class="modal__content">
+                <h1 class="modal__title">⚠️ ABVERTENCIA ⚠️</h1>
+                <p class="modal__text">Acabas de entrar a un juego de no retorno</p>
+                <p class="modal__text">Antes de empezar oprima el icono de 🔊 para que te relajes es esencial antes de empezar un viaje</p>
+                <form method="dialog">
+                    <button class="modal__close-button">X</button>
+                </form>
+                    </div>
+        </dialog>
+    </div>
+
+    <button class="mute-button" onclick="toggleMute()">🔊</button>
+    <script src="codigo.js"></script>
+</body>
+</html>
